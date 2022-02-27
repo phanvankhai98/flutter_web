@@ -85,3 +85,16 @@ BoxDecoration nMbtn = BoxDecoration(
     )
   ],
 );
+class TextStyles {
+  static const primaryTextStyle = TextStyle(color: Colors.black, fontSize: 16);
+  static const black24 = TextStyle(color: Colors.black, fontSize: 24);
+  static const black32 = TextStyle(color: Colors.black, fontSize: 32);
+  static const black48 = TextStyle(color: Colors.black, fontSize: 48);
+  //white
+  static const white = TextStyle(color: Colors.white);
+  static const white16 = TextStyle(color: Colors.white, fontSize: 16);
+  static const white20 = TextStyle(color: Colors.white, fontSize: 20);
+  static const whiteThin = TextStyle(color: Colors.white,fontWeight: FontWeight.w200);
+  static const white16Thin = TextStyle(color: Colors.white,fontWeight: FontWeight.w200, fontSize: 16);
+  static const white20Thin = TextStyle(color: Colors.white, fontSize: 20,fontWeight: FontWeight.w200);
+}
